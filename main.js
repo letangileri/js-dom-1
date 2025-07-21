@@ -3,13 +3,13 @@ let buttonSwitchLamp = document.getElementById("switch-lamp");
 // buttonSwitchLamp.addEventListener ('click', function (){
 //     let lampOff = document.getElementById('lamp');
 //     // console.log(lampOff.src);
-//     lampOff.src = "./img/yellow_lamp.png"    
 //     // console.log(lampOff.src);
 //     // console.log(buttonSwitchLamp.innerText);
 //     let buttonText = buttonSwitchLamp.innerText;
 //     // console.log(typeof buttonText);
     
 //     if(buttonText.includes("Accendi")){
+//         lampOff.src = "./img/yellow_lamp.png"    
 //         // console.log(buttonText);
 //         // console.log(buttonSwitchLamp.textContent = "Spegni");  
   
@@ -33,6 +33,7 @@ function getSwitch () {
     // console.log(typeof buttonText);
     
     if(buttonText.includes("Accendi")){
+        lampOff.src = "./img/yellow_lamp.png"    
         // console.log(buttonText);
         // console.log(buttonSwitchLamp.textContent = "Spegni");  
   
