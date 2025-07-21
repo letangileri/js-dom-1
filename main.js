@@ -3,7 +3,7 @@ let buttonSwitchLamp = document.getElementById("switch-lamp");
 // buttonSwitchLamp.addEventListener ('click', function (){
 //     let lampOff = document.getElementById('lamp');
 //     // console.log(lampOff.src);
-//     lampOff.src = "../img/yellow_lamp.png"    
+//     lampOff.src = "./img/yellow_lamp.png"    
 //     // console.log(lampOff.src);
 //     // console.log(buttonSwitchLamp.innerText);
 //     let buttonText = buttonSwitchLamp.innerText;
@@ -16,7 +16,7 @@ let buttonSwitchLamp = document.getElementById("switch-lamp");
 //         buttonSwitchLamp.textContent = "Spegni";     
 //     } else {
 //         buttonSwitchLamp.textContent = "Accendi";     
-//         lampOff.src = "../img/white_lamp.png";
+//         lampOff.src = "./img/white_lamp.png";
 //     }
 
 // })
@@ -26,7 +26,7 @@ let buttonSwitchLamp = document.getElementById("switch-lamp");
 function getSwitch () {
     let lampOff = document.getElementById('lamp');
     // console.log(lampOff.src);
-    lampOff.src = "../img/yellow_lamp.png"    
+    lampOff.src = "./img/yellow_lamp.png"    
     // console.log(lampOff.src);
     // console.log(buttonSwitchLamp.innerText);
     let buttonText = buttonSwitchLamp.innerText;
@@ -39,7 +39,7 @@ function getSwitch () {
         buttonSwitchLamp.textContent = "Spegni";     
     } else {
         buttonSwitchLamp.textContent = "Accendi";     
-        lampOff.src = "../img/white_lamp.png";
+        lampOff.src = "./img/white_lamp.png";
     }
 }
 
